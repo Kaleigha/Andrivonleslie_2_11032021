@@ -1,0 +1,130 @@
+@font-face
+{
+    font-family: "Raleway";
+    src: url(https://www.fontsquirrel.com/fonts/download/raleway);   
+    
+}
+body
+{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+li
+{
+    list-style: none;
+}
+#en-tete
+{
+    display: flex;
+    flex-flow: row wrap;
+
+}
+nav
+{
+display: flex;
+flex-direction: row;
+flex: 1 1 auto;
+justify-content: space-around;
+margin:auto;
+font-size: 20px;
+
+}
+header
+{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+flex : 2 1 auto;
+margin-left: 20px;
+
+}
+a
+{
+    text-decoration: none;
+}
+section
+{
+    font-family: "Raleway";
+    margin-top: 50px;
+}
+#Hébergements
+{
+    color:#0065FC;
+}
+#Sinscrire
+{
+    color:#0065FC;
+}
+#Activités
+{
+    color:black;
+}
+img
+{
+width: 100px;
+height: 50px;
+}
+#section1
+{
+    font-size: 20px;
+    margin-left: 20px;
+}
+h2
+{
+    font-weight: bold;
+}
+#Filtres
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    max-width: 65%;
+    flex: 1 1 auto;
+    font-size: 20px;
+}
+#Economique , #Familial , #Romantique , #Animaux-autorisés
+{
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px #F2F2F2 solid;
+    border-radius: 70px / 70px;
+    height:30px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+
+}
+.fas
+{
+    display: flex;
+    color: #0065FC; 
+    font-size: small;
+    
+
+}
+#icons
+{
+    background-color: #DEEBFF;
+    border-radius: 50px / 50px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#texte
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 30px;
+    
+}
+#texte:hover
+{
+    color:#0065FC; 
+}
+
