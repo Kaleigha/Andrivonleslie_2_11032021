@@ -10,14 +10,14 @@
     <body>
         <section id="en-tete">
        <header>
-          <img src= "Projet 2 - Reservia/images/logo/Reservia@3x.png"/> 
+          <img src= "Projet 2 - Reservia/images/logo/Reservia@3x.png" alt="logo-reservia"/> 
        </header> 
        <nav>
 
            <li > <a href= "#Hébergements_liste" id= "Hébergements">Hébergements</a>
            </li>
            <li> <a href= "#Activités_liste" id= "Activités">Activités</a></li>
-           <li id= "Sinscrire">S'inscrire</li>
+           <li> <a href="#Sinscrire" id= "Sinscrire">S'inscrire</a></li>
        </nav>
        </section>
        
@@ -27,8 +27,20 @@
        </section>
 
        <section id="section2">
-
+        <div id="iconsmap"><i class="fas fa-map-marker-alt"></i></div>
+   <form method="post" action="list.php">
+<p>
+    <input type="search" name="Recherche" id="Recherche" placeholder="Marseille,France"/>
+    <label for="Recherche" ></label>
+</p>
+<p>
+     <input type="submit" name="Rechercher" id="Rechercher" value="Rechercher"/>
+     <label for="Rechercher" ></label>
+</p>
+    </form>
+    
        </section>
+
        <section id="section3">
     <h2>
        <div id="Filtres">

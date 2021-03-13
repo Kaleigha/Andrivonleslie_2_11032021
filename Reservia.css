@@ -27,7 +27,6 @@ flex: 1 1 auto;
 justify-content: space-around;
 margin:auto;
 font-size: 20px;
-
 }
 header
 {
@@ -35,8 +34,6 @@ display: flex;
 justify-content: flex-start;
 align-items: center;
 flex : 2 1 auto;
-margin-left: 20px;
-
 }
 a
 {
@@ -46,15 +43,22 @@ section
 {
     font-family: "Raleway";
     margin-top: 50px;
+    margin-left: 20px;
 }
 #Hébergements
 {
     color:#0065FC;
 }
+#Hébergements:hover , #Sinscrire:hover , #Activités:hover
+{
+    border-top:  2px #0065FC solid;
+    padding-top: 55px;
+}
 #Sinscrire
 {
     color:#0065FC;
 }
+
 #Activités
 {
     color:black;
@@ -67,7 +71,6 @@ height: 50px;
 #section1
 {
     font-size: 20px;
-    margin-left: 20px;
 }
 h2
 {
@@ -79,7 +82,6 @@ h2
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    margin-left: 20px;
     max-width: 65%;
     flex: 1 1 auto;
     font-size: 20px;
@@ -92,29 +94,39 @@ h2
     border-radius: 70px / 70px;
     height:30px;
     justify-content: flex-start;
-    align-items: flex-start;
-    
-
+    align-items: flex-start;  
 }
 .fas
 {
     display: flex;
     color: #0065FC; 
     font-size: small;
-    
-
+}
+.fa-map-marker-alt
+{ 
+    color: black;
 }
 #icons
 {
     background-color: #DEEBFF;
-    border-radius: 50px / 50px;
+    border-radius: 50px /50px;
     width: 30px;
     height: 30px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;  
+}
+#iconsmap
+{
+    background-color: #F2F2F2;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
     
-
 }
 #texte
 {
@@ -126,5 +138,52 @@ h2
 #texte:hover
 {
     color:#0065FC; 
+}
+input
+{
+border: none;
+
+}
+#section2
+{
+    display: flex;
+flex-flow: row wrap;
+justify-content: flex-start;
+align-items: center;
+}
+form
+{
+    display: flex;
+    flex-flow: row wrap;
+ 
+}
+input[type=submit]
+{
+    background-color: #0065FC;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 150px;
+}
+input[type=search]
+{
+    border-top : 1px solid #F2F2F2;
+    border-bottom : 1px solid #F2F2F2;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 250px;
+}
+#Recherche::placeholder
+{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+
+}
+#Rechercher
+{
+    color: white;
+    font-weight: bold;
 }
 
