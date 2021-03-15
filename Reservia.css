@@ -76,6 +76,12 @@ h2
     font-weight: bold;
     margin:0px;
 }
+h3
+{
+    font-weight: bold;
+    margin:0px;
+    padding-left: 20px;   
+}
 #Filtres
 {
     display: flex;
@@ -161,9 +167,23 @@ h2
     width: 250px;
     height: 265px;
     border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;  
+    border-bottom-left-radius: 30px;
+    margin-left: 5px;  
 }
- 
+.imgactivite1
+{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 400px;
+    height: 500px;
+}
+.imgactivite2
+{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 400px;
+    height: 170px; 
+}
 
 /*Icons and images settings*/
 
@@ -249,6 +269,7 @@ article
     width: 63%;
     border-radius: 30px / 30px;
     padding:50px;
+    height: 1000px;
 }
 
 #notation
@@ -264,7 +285,8 @@ article
     height:360px;
     display:flex;
     flex-flow: column nowrap;
-    padding:5px;      
+    padding:5px;  
+    box-shadow: 10px 10px 10px grey;    
 }
 .description
 {
@@ -299,7 +321,7 @@ aside
     flex-flow:column nowrap;
     background-color: #F2F2F2;
     width: 25%;
-    height:100%;
+    height:1000px;
     border-radius: 30px / 30px;
     padding:50px;
 }
@@ -323,15 +345,52 @@ aside header p
     border-radius: 30px / 30px;
     display: flex;
     flex-flow: row nowrap;
-    margin:20px;
-    width: 490px;
+    margin:10px;
+    width: 500px;
     height: 280px;
     justify-content: center;
     align-items: center;
+    box-shadow: 10px 10px 10px grey;
 }
 #lespopulaires
 {
     display:flex;
     flex-flow: column wrap;
+    justify-content: space-between;
+}
+#section6
+{
+    margin-top: 100px;
+}
+#activites
+{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between; 
+    margin-top: 20px;  
+}
+#blocactivitetype1
+{
+    box-shadow: 10px 10px 5px #F2F2F2;
+    border-radius: 30px / 30px;
+    height: 570px;
+}
+#blocactivitetype2_5
+{
+    box-shadow: 10px 10px 5px #F2F2F2;
+    border-radius: 30px / 30px;
+    height: 250px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+#blocactivitetype2
+{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 600px;
+    margin:0px;
     justify-content: space-between;
 }
