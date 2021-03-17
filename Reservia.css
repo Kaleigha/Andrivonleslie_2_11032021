@@ -3,11 +3,6 @@
     font-family: "Raleway";
     src: url(https://www.fontsquirrel.com/fonts/download/raleway);       
 }
-body
-{
-    margin-left: 50px;
-    margin-right: 50px;
-}
 section
 {
     font-family: "Raleway";
@@ -18,93 +13,37 @@ li
 {
     list-style: none;
 }
-#en-tete
-{
-    display: flex;
-    flex-flow: row wrap;
-}
-nav
-{
-display: flex;
-flex-direction: row;
-flex: 1 1 auto;
-justify-content: space-around;
-margin:auto;
-font-size: 20px;
-}
-header
-{
-display: flex;
-justify-content: flex-start;
-align-items: center;
-flex : 2 1 auto;
-}
-a
-{
-    text-decoration: none;
-}
 
-#Hébergements
-{
-    color:#0065FC;
-}
-#Hébergements:hover , #Sinscrire:hover , #Activités:hover
-{
-    border-top:  2px #0065FC solid;
-    padding-top: 55px;
-}
-#Sinscrire
-{
-    color:#0065FC;
-}
-
-#Activités
-{
-    color:black;
-}
-img
-{
-width: 100px;
-height: 50px;
-}
-#section1
-{
-    font-size: 20px;
-}
 h2
 {
     font-weight: bold;
     margin:0px;
+    color: black;
 }
 h3
 {
     font-weight: bold;
     margin:0px;
-    padding-left: 20px;   
+    padding-left: 20px; 
+    color: black;  
 }
-#Filtres
+h4
 {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 65%;
-    flex: 1 1 auto;
-    font-size: 20px;
+    font-weight: bold;
 }
-#Economique , #Familial , #Romantique , #Animaux-autorisés
+p
 {
-    display: flex;
-    flex-flow: row wrap;
-    border: 2px #F2F2F2 solid;
-    border-radius: 70px / 70px;
-    height:30px;
-    justify-content: flex-start;
-    align-items: flex-start;  
+    color: black;
 }
+
 
 /*Icons and images settings*/
 
+img
+{
+width: 100px;
+height: 50px;
+}
 .fas
 {
     display: flex;
@@ -140,8 +79,8 @@ h3
     background-color: #F2F2F2;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;   
@@ -187,6 +126,58 @@ h3
 
 /*Icons and images settings*/
 
+/* Header and Nav */
+#en-tete
+{
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+nav
+{
+display: flex;
+flex-direction: row;
+flex: 1 1 auto;
+justify-content: space-around;
+margin:auto;
+font-size: 20px;
+}
+header
+{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+flex : 2 1 auto;
+}
+a
+{
+    text-decoration: none;
+}
+
+#Hébergements
+{
+    color:#0065FC;
+}
+#Hébergements:hover , #Sinscrire:hover , #Activités:hover
+{
+    border-top:  2px #0065FC solid;
+    padding-top: 55px;
+}
+#Sinscrire
+{
+    color:#0065FC;
+}
+
+#Activités
+{
+    color:black;
+}
+
+#section1
+{
+    font-size: 20px;
+}
 #texte
 {
     padding-left: 20px;
@@ -197,56 +188,95 @@ h3
 {
     color:#0065FC; 
 }
-input
+
+/*Section 1*/
+#section1
 {
-border: none;
+    margin-left: 50px;
+    margin-right: 50px;
 }
+
+/*Section 2 Search bars*/
 #section2
 {
     display: flex;
 flex-flow: row wrap;
 justify-content: flex-start;
 align-items: center;
+margin-left: 50px;
+margin-right: 50px;
 }
 form
 {
     display: flex;
     flex-flow: row wrap; 
 }
+input
+{
+border: none;
+}
 input[type=submit]
 {
     background-color: #0065FC;
-    padding-bottom: 7px;
-    padding-top: 7px;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-    width: 150px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 200px;
+    height: 40px;
 }
 input[type=search]
 {
     border-top : 2px solid #F2F2F2;
     border-bottom : 2px solid #F2F2F2;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    width: 250px;
+    width: 350px;
+    height: 40px;
 }
 #Recherche::placeholder
 {
     color: black;
     font-weight: bold;
     text-align: center;
+    font-size: 20px;
 }
 #Rechercher
 {
     color: white;
     font-weight: bold;
+    font-size: 20px;
 }
+
+/* Section 3 Les filtres*/
+#Filtres
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 65%;
+    flex: 1 1 auto;
+    font-size: 20px;
+    margin-left: 30px;
+margin-right: 50px;
+}
+#Economique , #Familial , #Romantique , #Animaux-autorisés
+{
+    display: flex;
+    flex-flow: row wrap;
+    border: 2px #F2F2F2 solid;
+    border-radius: 70px / 70px;
+    height:30px;
+    justify-content: flex-start;
+    align-items: flex-start;  
+}
+
+/*Section 4 info */
 #section4
 {
     display:flex;
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items:stretch;
+    margin-left: 50px;
+margin-right: 50px;
 }
 #info
 {
@@ -255,12 +285,17 @@ input[type=search]
     font-size: 20px;
 }
 
+/*Section 5 Hébergements + populaires */
 #section5
 {
     display:flex;
     flex-flow: row wrap;
-    justify-content: space-between;    
+    justify-content: space-between;  
+    margin-left: 50px;
+margin-right: 50px;  
 }
+
+/* Les hébergements */
 article
 {
     display:flex;
@@ -286,14 +321,14 @@ article
     display:flex;
     flex-flow: column nowrap;
     padding:5px;  
-    box-shadow: 10px 10px 10px grey;    
+    box-shadow: 10px 10px 10px grey;   
 }
 .description
 {
    margin: 0px;
    padding-left: 30px;
    display:flex;
-   flex-flow:column wrap;  
+   flex-flow:column wrap; 
 }
 #corpsdetexte
 {
@@ -315,6 +350,7 @@ footer
 {
     margin-top: 50px;
 }
+/* Les populaires */
 aside
 {
     display:flex;
@@ -358,9 +394,13 @@ aside header p
     flex-flow: column wrap;
     justify-content: space-between;
 }
+
+/* Section 6 :Les activités */
 #section6
 {
     margin-top: 100px;
+    margin-left: 50px;
+margin-right: 50px;
 }
 #activites
 {
@@ -393,4 +433,24 @@ aside header p
     height: 600px;
     margin:0px;
     justify-content: space-between;
+}
+
+/* Footer */
+#Basdepage
+{
+    background-color: #F2F2F2;
+    background-size: cover;
+    height: max-content;
+    width:100%;
+    display:flex;
+    flex-direction: row;  
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 20px;
+    padding-left: 50px;
+}
+#Basdepage section
+{
+    width: 600px;
 }
