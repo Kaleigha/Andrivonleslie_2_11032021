@@ -1,61 +1,50 @@
-@font-face
-{
+@font-face{
     font-family: "Raleway";
     src: url(https://www.fontsquirrel.com/fonts/download/raleway);       
 }
-section
-{
+section{
     font-family: "Raleway";
     margin-top: 50px;
     margin-left: 20px;
 }
-li
-{
+li{
     list-style: none;
 }
 
-h2
-{
+h2{
     font-weight: bold;
     margin:0px;
     color: black;
 }
-h3
-{
+h3{
     font-weight: bold;
     margin:0px;
     padding-left: 20px; 
     color: black;  
 }
-h4
-{
+h4{
     font-weight: bold;
 }
-p
-{
+p{
     color: black;
 }
 
 
 /*Icons and images settings*/
 
-img
-{
-width: 100px;
-height: 50px;
+img{
+    width: 100px;
+    height: 50px;
 }
-.fas
-{
+.fas{
     display: flex;
     color: #0065FC; 
     font-size: small;
 }
-.fa-map-marker-alt
-{ 
+.fa-map-marker-alt{ 
     color: black;
 }
-#iconsinfo
-{
+#iconsinfo{
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -64,8 +53,7 @@ height: 50px;
     border: 2px #F2F2F2 solid;
     border-radius: 90px / 90px;
 }
-#icons
-{
+#icons{
     background-color: #DEEBFF;
     border-radius: 50px /50px;
     width: 30px;
@@ -74,8 +62,7 @@ height: 50px;
     justify-content: center;
     align-items: center;  
 }
-#iconsmap
-{
+#iconsmap{
     background-color: #F2F2F2;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
@@ -85,168 +72,143 @@ height: 50px;
     justify-content: center;
     align-items: center;   
 }
-#starsgrey
-{
+#starsgrey{
     color:#F2F2F2;
 }
-.imghbg
-{
-    width: 390px;
-    height: 250px;
+.imglodging{
+    object-fit: cover;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+    width: 390px;
+    height: 250px;
 }
-.fa-chart-line
-{
+.fa-chart-line{
     color: black;
     font-size: x-large;
 }
-.imgpop
-{
+.imgpopular{
     width: 250px;
     height: 265px;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
-    margin-left: 5px;  
+    margin-left: 5px; 
+    object-fit: cover; 
 }
-.imgactivite1
-{
+.imgactivity1{
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     width: 400px;
     height: 500px;
+    object-fit: cover;
 }
-.imgactivite2
-{
+.imgactivity2{
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     width: 400px;
     height: 170px; 
+    object-fit: cover;
 }
 
 /*Icons and images settings*/
 
 /* Header and Nav */
-#en-tete
-{
+#top{
     display: flex;
     flex-flow: row wrap;
     margin-left: 50px;
     margin-right: 50px;
 }
-nav
-{
-display: flex;
-flex-direction: row;
-flex: 1 1 auto;
-justify-content: space-around;
-margin:auto;
-font-size: 20px;
+nav{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    justify-content: space-around;
+    margin:auto;
+    font-size: 20px;
 }
-header
-{
-display: flex;
-justify-content: flex-start;
-align-items: center;
-flex : 2 1 auto;
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex : 2 1 auto;
 }
-a
-{
+a{
     text-decoration: none;
 }
-
-#Hébergements
-{
+#accommodationmenu{
     color:#0065FC;
 }
-#Hébergements:hover , #Sinscrire:hover , #Activités:hover
-{
+#accommodationmenu:hover , #registermenu:hover , #activitymenu:hover{
     border-top:  2px #0065FC solid;
     padding-top: 55px;
 }
-#Sinscrire
-{
+#registermenu{
     color:#0065FC;
 }
-
-#Activités
-{
+#activitymenu{
     color:black;
 }
-
-#section1
-{
+#hook{
     font-size: 20px;
 }
-#texte
-{
+#text{
     padding-left: 20px;
     padding-right: 20px;
     height: 30px;   
 }
-#texte:hover
-{
+#text:hover{
     color:#0065FC; 
 }
 
-/*Section 1*/
-#section1
-{
+/* Section Hook*/
+#hook{
     margin-left: 50px;
     margin-right: 50px;
 }
 
-/*Section 2 Search bars*/
-#section2
-{
+/*Section  Search bars*/
+#searchbar{
     display: flex;
-flex-flow: row wrap;
-justify-content: flex-start;
-align-items: center;
-margin-left: 50px;
-margin-right: 50px;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }
-form
-{
+form{
     display: flex;
     flex-flow: row wrap; 
 }
-input
-{
-border: none;
+input{
+    border: none;
 }
-input[type=submit]
-{
+input[type=submit]{
     background-color: #0065FC;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
     width: 200px;
     height: 40px;
 }
-input[type=search]
-{
+input[type=search]{
     border-top : 2px solid #F2F2F2;
     border-bottom : 2px solid #F2F2F2;
     width: 350px;
     height: 40px;
 }
-#Recherche::placeholder
-{
+#research::placeholder{
     color: black;
     font-weight: bold;
     text-align: center;
     font-size: 20px;
 }
-#Rechercher
-{
+#searching{
     color: white;
     font-weight: bold;
     font-size: 20px;
 }
 
-/* Section 3 Les filtres*/
-#Filtres
-{
+/* Section Les filtres*/
+#filters{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -255,10 +217,9 @@ input[type=search]
     flex: 1 1 auto;
     font-size: 20px;
     margin-left: 30px;
-margin-right: 50px;
+    margin-right: 50px;
 }
-#Economique , #Familial , #Romantique , #Animaux-autorisés
-{
+#economic , #family , #romantic , #pets{
     display: flex;
     flex-flow: row wrap;
     border: 2px #F2F2F2 solid;
@@ -268,36 +229,32 @@ margin-right: 50px;
     align-items: flex-start;  
 }
 
-/*Section 4 info */
-#section4
-{
+/*Section info */
+#infobar{
     display:flex;
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items:stretch;
     margin-left: 50px;
-margin-right: 50px;
+    margin-right: 50px;
 }
-#info
-{
+#info{
     padding-left: 18px;
     margin-top: 5px;
     font-size: 20px;
 }
 
-/*Section 5 Hébergements + populaires */
-#section5
-{
+/*Section  Hébergements + populaires */
+#menu{
     display:flex;
     flex-flow: row wrap;
     justify-content: space-between;  
     margin-left: 50px;
-margin-right: 50px;  
+    margin-right: 50px;  
 }
 
 /* Les hébergements */
-article
-{
+article{
     display:flex;
     flex-flow:column nowrap;
     background-color: #F2F2F2;
@@ -306,14 +263,11 @@ article
     padding:50px;
     height: 1000px;
 }
-
-#notation
-{
+.rating{
     display:flex;
     flex-flow:row wrap;
 }
-#hebergementbloc
-{
+.accommodationbloc{
     background-color: white;
     border-radius: 30px / 30px;
     width: 30%;
@@ -323,15 +277,13 @@ article
     padding:5px;  
     box-shadow: 10px 10px 10px grey;   
 }
-.description
-{
+.description{
    margin: 0px;
    padding-left: 30px;
    display:flex;
    flex-flow:column wrap; 
 }
-#corpsdetexte
-{
+#offers{
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
@@ -341,18 +293,16 @@ article
     justify-content:flex-start;
     margin-left: 0px;   
 }
-.description p
-{
+.description p{
     margin:0px;
     padding-bottom:10px;
 }
-footer
-{
+footer{
     margin-top: 50px;
 }
+
 /* Les populaires */
-aside
-{
+aside{
     display:flex;
     flex-flow:column nowrap;
     background-color: #F2F2F2;
@@ -361,8 +311,7 @@ aside
     border-radius: 30px / 30px;
     padding:50px;
 }
-aside header
-{
+aside header{
     display:flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -371,12 +320,10 @@ aside header
     font-weight: bold;
     padding-left: 20px;  
 }
-aside header p
-{
+aside header p{
     margin:0px;
 }
-#populairebloc
-{
+.popularbloc{
     background-color: white;
     border-radius: 30px / 30px;
     display: flex;
@@ -388,36 +335,31 @@ aside header p
     align-items: center;
     box-shadow: 10px 10px 10px grey;
 }
-#lespopulaires
-{
+#popular{
     display:flex;
     flex-flow: column wrap;
     justify-content: space-between;
 }
 
-/* Section 6 :Les activités */
-#section6
-{
+/* Section Les activités */
+#leisure{
     margin-top: 100px;
     margin-left: 50px;
-margin-right: 50px;
+    margin-right: 50px;
 }
-#activites
-{
+#activity{
     display:flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between; 
     margin-top: 20px;  
 }
-#blocactivitetype1
-{
+.blocactivitytype1{
     box-shadow: 10px 10px 5px #F2F2F2;
     border-radius: 30px / 30px;
     height: 570px;
 }
-#blocactivitetype2_5
-{
+.blocactivitytype2_5{
     box-shadow: 10px 10px 5px #F2F2F2;
     border-radius: 30px / 30px;
     height: 250px;
@@ -425,8 +367,7 @@ margin-right: 50px;
     flex-direction: column;
     flex-wrap: nowrap;
 }
-#blocactivitetype2
-{
+.blocactivitytype2{
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -436,8 +377,7 @@ margin-right: 50px;
 }
 
 /* Footer */
-#Basdepage
-{
+#endmenu{
     background-color: #F2F2F2;
     background-size: cover;
     height: max-content;
@@ -450,7 +390,6 @@ margin-right: 50px;
     font-size: 20px;
     padding-left: 50px;
 }
-#Basdepage section
-{
+#endmenu section{
     width: 600px;
 }
