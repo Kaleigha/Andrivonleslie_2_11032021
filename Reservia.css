@@ -270,7 +270,6 @@ article{
 .accommodationbloc{
     background-color: white;
     border-radius: 30px / 30px;
-    width: 30%;
     height:360px;
     display:flex;
     flex-flow: column nowrap;
@@ -335,7 +334,7 @@ aside header p{
     align-items: center;
     box-shadow: 10px 10px 10px grey;
 }
-#popular{
+#favorites{
     display:flex;
     flex-flow: column wrap;
     justify-content: space-between;
