@@ -1,0 +1,144 @@
+@media all and (max-device-width:480px){
+    html{
+        display:flex;
+        justify-content: center;
+        align-self: center;
+    }
+    body{
+        width: 320px;
+    }
+
+    /*Header*/
+    #top{
+        width: 320px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    img{
+        width: 120px;
+        height: 70px;
+    }
+    #registerbutton{
+        order: 2;
+        font-weight: bold;
+        margin-right: 20px;
+    }
+    #accommodationmenu{
+        border-bottom:  2px #0065FC solid;
+        padding-bottom: 30px;
+    }
+    #activitymenu{
+        border-bottom:  2px #F2F2F2 solid;
+        padding-bottom: 30px;
+    }
+    #logo{
+        flex: none;
+        width: 200px;
+        order: 1;
+        margin-bottom: 20px;
+    }
+
+    /* Nav*/
+    nav{
+        flex-wrap: wrap;
+        order: 3;
+    }
+
+    /*Searchbar*/
+    #searchbar{
+        width: 300px;
+    }
+    input[type=search]{
+        width: 100px;  
+    }
+    button[type=submit]{
+        width: 100px; 
+    }
+
+    /*Filters*/
+    #filters{
+        width: 300px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #filters p{
+        width: 150px;
+    }
+
+    /*Infobar*/
+    #infobar{
+    flex-wrap: nowrap;
+    }
+
+    /*Section  Hébergements + populaires */
+    #menu{
+        margin-left: 10px;
+    }
+
+    /* Les hébergements */
+    article{
+        flex-flow: column nowrap;
+        height: 1700px;
+        width: 320px;
+        background-color: white;
+        order: 2;
+        padding-left: 50px;
+    }
+    #offers{
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 320px;
+        height: 1500px;
+    }
+    .accommodationbloc{
+        width: 300px;
+        box-shadow: 10px 10px 5px #F2F2F2;
+    }
+    .imglodging{
+        width: 300px; 
+    }
+
+    /*Les populaires*/
+    aside{
+        order: 1;
+    }
+   
+    #leisure{
+        width: 320px;
+        height: 1500px;
+        margin-top: 30px;
+        margin-left: 0px;
+         
+    }
+    #activity{
+        width: 320px;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 1420px; 
+        margin-left: 0px; 
+    }
+    .blocactivitytype1 , .blocactivitytype2_5{
+        width: 300px;
+        height:190px;
+    }
+    .blocactivitytype2{
+        width: 300px;
+        height:400px;
+        flex-flow: column nowrap;
+        margin-bottom: 50px;
+    }
+    .imgactivity1 , .imgactivity2{
+        width: 300px;
+        height: 110px;
+    }
+
+    /*Footer*/
+    #endmenu{
+        flex-flow: column wrap;
+        width: 320px; 
+    }
+}

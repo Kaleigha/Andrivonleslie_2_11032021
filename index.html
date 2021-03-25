@@ -4,20 +4,23 @@
         <title>Reservia</title>
         <meta charset= UTF-8 />
         <link rel="stylesheet" href="Reservia.css"/>
+        <link rel="stylesheet" href="tablet.css" media="screen and (max-width: 1100px)"/>
+        <link rel="stylesheet" href="mobile.css" media="all and (max-device-width:480px)"/>
         <script src="https://kit.fontawesome.com/5583035ac2.js" crossorigin="anonymous"></script>
-
     </head>
     <body>
         <section id="top">
-            <header>
-                <img src= "img/logo/Reservia@3x.png" alt="logo-reservia"/> 
+            <header id="logo">
+                <img src= "img/logo/Reservia@3x.png" alt=""/> 
             </header> 
             <nav>
 
                 <li > <a href= "#accommodation_list" id= "accommodationmenu">Hébergements</a></li>
                 <li> <a href= "#activity_liste" id= "activitymenu">Activités</a></li>
-                <li> <a href="#register" id= "registermenu">S'inscrire</a></li>
             </nav>
+            <div id="registerbutton">
+                <a href="#register" id= "registermenu">S'inscrire</a>
+            </div>
        </section>
        <section id="hook">
            <p><h2>Trouvez votre hébergement pour des vacances de rêve</h2></p>
@@ -31,15 +34,17 @@
                     <label for="research" ></label>
                 </p>
                 <p>
-                    <input type="submit" name="searching" id="searching" value="Rechercher"/>
+                    <button type="submit" name="searching" id="searching">Rechercher
                     <label for="searching" ></label>
+                    </button>
                 </p>
             </form>
        </section>
        <section>
             <h2>
-                <div id="filters">
-                    <li>Filtres</li>
+                <div>
+                    <ul id="filters">
+                        <p>Filtres</p>
                         <li id="economic">
                             <div id="icons"><i class="fas fa-money-bill-wave"></i></div>
                             <div id="text">Economique</div>
@@ -56,6 +61,7 @@
                             <div id="icons"><i class="fas fa-dog"></i></div>
                             <div id="text">Animaux autorisés</div>
                         </li>
+                    </ul>
                 </div>
             </h2>
         </section>

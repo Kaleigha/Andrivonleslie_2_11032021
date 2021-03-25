@@ -2,16 +2,14 @@
     font-family: "Raleway";
     src: url(https://www.fontsquirrel.com/fonts/download/raleway);       
 }
-@media screen and (min-width:1200px){
-    html{
+html{
         display:flex;
         justify-content: center;
         align-self: center;
     }
-    body{
+body{
         width: 1200px;
     }
-}
 section{
     font-family: "Raleway";
     margin-top: 50px;
@@ -136,11 +134,11 @@ nav{
     display: flex;
     flex-direction: row;
     flex: 1 1 auto;
+    margin: auto;
     justify-content: space-around;
-    margin:auto;
     font-size: 20px;
 }
-header{
+#logo{
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -154,10 +152,22 @@ a{
 }
 #accommodationmenu:hover , #registermenu:hover , #activitymenu:hover{
     border-top:  2px #0065FC solid;
-    padding-top: 55px;
+    padding-top: 50px;
 }
 #registermenu{
     color:#0065FC;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    font-size: 20px;
+}
+#registerbutton{
+    display:flex;
+    flex-direction: row;
+    flex: 1 1 1;
+    justify-content: center;
+    align-items: center;     
 }
 #activitymenu{
     color:black;
@@ -195,7 +205,10 @@ form{
 input{
     border: none;
 }
-input[type=submit]{
+button{
+    border:none;
+}
+button[type=submit]{
     background-color: #0065FC;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
@@ -223,13 +236,14 @@ input[type=search]{
 /* Section Les filtres*/
 #filters{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
     width: 800px;
     flex: 1 1 auto;
     font-size: 20px;
-    margin-left: 15px;
+    padding-left: 10px;
+    
 }
 #economic , #family , #romantic , #pets{
     display: flex;

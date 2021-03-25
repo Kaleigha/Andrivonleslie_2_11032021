@@ -1,0 +1,34 @@
+@media all and (max-device-width:1024px){
+    html{
+        display:flex;
+        justify-content: center;
+        align-self: center;
+    }
+    body{
+        width: 760px;
+    }
+    #top{
+        width: 760px;   
+    }
+    #menu{
+        justify-content: center;
+        align-items: center;
+    }
+    aside{
+        margin-top: 50px;
+    }
+    #leisure{
+        width: 760px;
+        height: 950px; 
+    }
+    #activity{
+        width: 760px;
+        height: 950px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    #endmenu{
+        width: 760px;
+    }
+}
