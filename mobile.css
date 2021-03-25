@@ -13,7 +13,7 @@
         width: 320px;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     img{
         width: 120px;
@@ -40,8 +40,10 @@
     }
 
     /* Nav*/
+    menu{
+        flex-wrap: nowrap;
+    }
     nav{
-        flex-wrap: wrap;
         order: 3;
     }
 
@@ -73,7 +75,7 @@
     }
 
     /*Section  Hébergements + populaires */
-    #menu{
+    #group{
         margin-left: 10px;
     }
 

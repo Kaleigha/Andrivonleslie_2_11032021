@@ -64,7 +64,7 @@ img{
     border: 2px #F2F2F2 solid;
     border-radius: 90px / 90px;
 }
-#icons{
+.icons{
     background-color: #DEEBFF;
     border-radius: 50px /50px;
     width: 30px;
@@ -83,7 +83,7 @@ img{
     justify-content: center;
     align-items: center;   
 }
-#starsgrey{
+.starsgrey{
     color:#F2F2F2;
 }
 .imglodging{
@@ -129,20 +129,24 @@ img{
     margin-left: 30px;
     margin-right: 10px;
     width: 1200px;
+    justify-content: space-between;
 }
-nav{
+menu{
     display: flex;
     flex-direction: row;
-    flex: 1 1 auto;
-    margin: auto;
-    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex: 2 1 auto;
+    justify-content: space-between;
+    align-items: center;
     font-size: 20px;
+    width: 300px;
+    padding-inline-start: 0px;
 }
 #logo{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    flex : 3 1 auto;
+    flex : 2 1 auto;
 }
 a{
     text-decoration: none;
@@ -165,14 +169,14 @@ a{
 #registerbutton{
     display:flex;
     flex-direction: row;
-    flex: 1 1 1;
+    flex: 1 1 auto;
     justify-content: center;
     align-items: center;     
 }
 #activitymenu{
     color:black;
 }
-#text{
+.text{
     padding-left: 20px;
     padding-right: 20px;
     height: 30px;
@@ -272,7 +276,7 @@ input[type=search]{
 }
 
 /*Section  Hébergements + populaires */
-#menu{
+#group{
     display:flex;
     flex-flow: row wrap;
     justify-content: space-between;  
@@ -293,6 +297,8 @@ article{
 .rating{
     display:flex;
     flex-flow:row wrap;
+    padding-inline-start: 0px;
+    margin-block-start: 0px;
 }
 .accommodationbloc{
     background-color: white;
