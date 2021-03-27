@@ -4,11 +4,8 @@
         justify-content: center;
         align-self: center;
     }
-    body{
-        width: 760px;
-    }
     #top{
-        width: 760px;   
+        width: auto;   
     }
     #group{
         justify-content: center;
@@ -18,17 +15,17 @@
         margin-top: 50px;
     }
     #leisure{
-        width: 760px;
+        width: auto;
         height: 950px; 
     }
     #activity{
-        width: 760px;
+        width: auto;
         height: 950px;
         flex-wrap: wrap;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: flex-start;
     }
     #endmenu{
-        width: 760px;
+        width: 950px;
     }
 }

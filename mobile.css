@@ -4,13 +4,10 @@
         justify-content: center;
         align-self: center;
     }
-    body{
-        width: 320px;
-    }
+   
 
     /*Header*/
     #top{
-        width: 320px;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
@@ -42,6 +39,7 @@
     /* Nav*/
     menu{
         flex-wrap: nowrap;
+        padding-left: 0px;
     }
     nav{
         order: 3;
@@ -52,15 +50,34 @@
         width: 300px;
     }
     input[type=search]{
-        width: 100px;  
+        width: 150px;  
     }
     button[type=submit]{
-        width: 100px; 
+        background-color: #0065FC;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        width: 40px;
+        height: 40px; 
+    }
+    #searching{
+        display: none;
+    }
+    #mini{
+        display: contents;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+    .fa-search{
+        width: 30px;
+        height: 30px;
+        color:white;
+        padding-top: 10px;
     }
 
     /*Filters*/
     #filters{
-        width: 300px;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
@@ -77,6 +94,7 @@
     /*Section  Hébergements + populaires */
     #group{
         margin-left: 10px;
+        flex-flow: column nowrap;
     }
 
     /* Les hébergements */
@@ -109,11 +127,13 @@
     }
    
     #leisure{
-        width: 320px;
         height: 1500px;
         margin-top: 30px;
         margin-left: 0px;
-         
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center; 
     }
     #activity{
         width: 320px;
@@ -125,7 +145,7 @@
     }
     .blocactivitytype1 , .blocactivitytype2_5{
         width: 300px;
-        height:190px;
+        height:180px;
     }
     .blocactivitytype2{
         width: 300px;
@@ -140,7 +160,9 @@
 
     /*Footer*/
     #endmenu{
+        display: flex;
         flex-flow: column wrap;
-        width: 320px; 
+        justify-content: center; 
+        align-items: center;
     }
 }

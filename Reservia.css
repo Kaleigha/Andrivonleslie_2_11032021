@@ -1,7 +1,3 @@
-@font-face{
-    font-family: "Raleway";
-    src: url(https://www.fontsquirrel.com/fonts/download/raleway);       
-}
 html{
         display:flex;
         justify-content: center;
@@ -11,7 +7,7 @@ body{
         width: 1200px;
     }
 section{
-    font-family: "Raleway";
+    font-family: 'Raleway', sans-serif;
     margin-top: 50px;
     margin-left: 20px;
 }
@@ -28,7 +24,8 @@ h2{
 h3{
     font-weight: bold;
     margin:0px;
-    padding-left: 20px; 
+    padding-left: 20px;
+    padding-top: 10px; 
     color: black; 
     font-size: 15px; 
 }
@@ -44,8 +41,8 @@ p{
 /*Icons and images settings*/
 
 img{
-    width: 100px;
-    height: 50px;
+    width: 150px;
+    height: 80px;
 }
 .fas{
     display: flex;
@@ -83,7 +80,7 @@ img{
     justify-content: center;
     align-items: center;   
 }
-#starsgrey{
+.grey{
     color:#F2F2F2;
 }
 .imglodging{
@@ -140,13 +137,13 @@ menu{
     align-items: center;
     font-size: 20px;
     width: 300px;
-    padding-inline-start: 0px;
+    font-weight: bold; 
 }
 #logo{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    flex : 2 1 auto;
+    flex : 3 1 auto;
 }
 a{
     text-decoration: none;
@@ -154,21 +151,20 @@ a{
 #accommodationmenu{
     color:#0065FC;
 }
-#accommodationmenu:hover , #registermenu:hover , #activitymenu:hover{
+#accommodationmenu:hover , #activitymenu:hover{
     border-top:  2px #0065FC solid;
     padding-top: 50px;
 }
 #registermenu{
     color:#0065FC;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: auto;
     font-size: 20px;
+    font-weight: bold; 
+    padding-bottom: 20px;
 }
 #registerbutton{
     display:flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     flex: 1 1 auto;
     justify-content: center;
     align-items: center;     
@@ -180,7 +176,8 @@ a{
     padding-left: 20px;
     padding-right: 20px;
     height: 30px;
-    padding-top: 5px;   
+    padding-top: 5px;
+    font-weight: bold;   
 }
 .text:hover{
     color:#0065FC; 
@@ -235,6 +232,9 @@ input[type=search]{
     color: white;
     font-weight: bold;
     font-size: 15px;
+}
+#mini{
+    display: none;
 }
 
 /* Section Les filtres*/
@@ -335,7 +335,8 @@ article{
     font-size: 15px;
 }
 .description h2{
-    font-size: 15px; 
+    font-size: 17px;
+    padding-bottom:5px; 
 }
 footer{
     margin-top: 50px;
