@@ -298,8 +298,8 @@ article{
 .rating{
     display:flex;
     flex-flow:row wrap;
-    padding-inline-start: 0px;
-    margin-block-start: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
 }
 .accommodationbloc{
     background-color: white;
