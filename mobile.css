@@ -1,20 +1,27 @@
 @media all and (max-width: 480px){
     html{
         display:flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-self: center;
     }
-   
+    body{
+        width: 1000px;
+    }
 
     /*Header*/
     #top{
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
+        width: 90%;
+        height: auto;
     }
     img{
-        width: 120px;
-        height: 70px;
+        width: 350px;
+        height: 250px;
+    }
+    #registermenu{
+        font-size: 60px;
     }
     #registerbutton{
         order: 2;
@@ -24,6 +31,7 @@
     #accommodationmenu{
         border-bottom:  2px #0065FC solid;
         padding-bottom: 30px;
+        margin-right: 150px;
     }
     #activitymenu{
         border-bottom:  2px #F2F2F2 solid;
@@ -31,33 +39,56 @@
     }
     #logo{
         flex: none;
-        width: 200px;
+        width: 450px;
         order: 1;
         margin-bottom: 20px;
+        margin-right: 150px;
     }
 
     /* Nav*/
     menu{
         flex-wrap: nowrap;
         padding-left: 0px;
+        font-size: 60px;
+        width: auto;
     }
     nav{
         order: 3;
     }
-
+    h2{
+        font-size: 60px;
+    }
+    p{
+        font-size: 60px;
+    }
+    h4{
+        font-size: 60px;  
+    }
+    h3{
+        font-size: 60px; 
+    }
+    
     /*Searchbar*/
     #searchbar{
-        width: 300px;
+        width: 90%;
     }
     input[type=search]{
-        width: 150px;  
+        width: 400px;
+        height: 100px;  
+    }
+    #iconsmap{
+        width: 100px;
+        height: 100px;
+    }
+    .fa-map-marker-alt{
+        font-size: xx-large;
     }
     button[type=submit]{
         background-color: #0065FC;
         border-bottom-right-radius: 10px;
         border-top-right-radius: 10px;
-        width: 40px;
-        height: 40px; 
+        width: 100px;
+        height: 100px; 
     }
     #searching{
         display: none;
@@ -74,6 +105,10 @@
         height: 30px;
         color:white;
         padding-top: 10px;
+        font-size: xx-large;
+    }
+    #research::placeholder{
+        font-size: 40px;
     }
 
     /*Filters*/
@@ -81,14 +116,39 @@
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
+        width: 100%;
     }
-    #filters p{
-        width: 150px;
+    #filters h2{
+        width: 800px;
+        margin-bottom: 50px;
     }
+    #economic , #family , #romantic , #pets{
+        font-size: 40px;
+        height: 60px;
+        margin-bottom: 20px;
+        
+    }
+    .fas{
+        font-size: xx-large;
+    }
+    .icons{
+        width: 60px;
+        height: 60px;
+    }
+
 
     /*Infobar*/
     #infobar{
-    flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: center;
+    }
+    #info{
+        font-size: 40px; 
+    }
+    #iconsinfo{
+        width: 60px;
+        height: 60px;
     }
 
     /*Section  Hébergements + populaires */
@@ -100,63 +160,99 @@
     /* Les hébergements */
     article{
         flex-flow: column nowrap;
-        height: 1700px;
-        width: 320px;
+        height: 5000px;
+        width: 1000px;
         background-color: white;
         order: 2;
         padding-left: 50px;
     }
     #offers{
         flex-flow: column nowrap;
-        justify-content: flex-start;
-        align-items: flex-start;
-        width: 320px;
-        height: 1500px;
+        justify-content: space-around;
+        align-content: space-around;
+        width: 1000px;
+        height: 4300px;
     }
     .accommodationbloc{
-        width: 300px;
+        width: 1000px;
         box-shadow: 10px 10px 5px #F2F2F2;
+        height: 500px;
     }
     .imglodging{
-        width: 300px; 
+        width: 1000px;
+        height: 290px; 
+    }
+    #accommodation_list{
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 
     /*Les populaires*/
     aside{
         order: 1;
+        width: 1000px;
+        height: 1200px;
+        justify-content: flex-start;
     }
-   
+    #favorites{
+        height: 1200px;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    .popularbloc{
+        width: 900px;
+        height: 300px;
+        justify-content: start;
+    }
+    .imgpopular{
+        width: 400px;
+        height: 290px;
+    }
+    .description h2{
+        font-size: 40px;
+    }
+    .description p{
+        font-size: 40px;
+    }
+    .description{
+        justify-content: space-around;
+        align-content: flex-start;
+        height: 250px;
+    }
+
+    /*Activity*/
     #leisure{
-        height: 1500px;
+        height: 3500px;
         margin-top: 30px;
         margin-left: 0px;
         display: flex;
         flex-flow: column nowrap;
-        justify-content: center;
-        align-items: center; 
+        justify-content: flex-start;
+        align-items: flex-start; 
     }
     #activity{
-        width: 320px;
+        width: 1000px;
         flex-flow: column nowrap;
         justify-content: flex-start;
         align-items: flex-start;
-        height: 1420px; 
+        height: 3300px; 
         margin-left: 0px; 
     }
     .blocactivitytype1 , .blocactivitytype2_5{
-        width: 300px;
-        height:180px;
+        width: 1000px;
+        height:500px;
     }
     .blocactivitytype2{
-        width: 300px;
-        height:400px;
+        width: 1000px;
+        height:1100px;
         flex-flow: column nowrap;
         margin-bottom: 50px;
     }
     .imgactivity1 , .imgactivity2{
-        width: 300px;
-        height: 110px;
+        width: 1000px;
+        height: 400px;
     }
+    
 
     /*Footer*/
     #endmenu{
