@@ -4,14 +4,14 @@
         <title>Reservia</title>
         <meta charset= UTF-8 />
         <link rel="stylesheet" href="Reservia.css"/>
-        <link rel="stylesheet" href="tablet.css" media="screen and (max-device-width: 1024px)"/>
-        <link rel="stylesheet" href="mobile.css" media="all and (max-device-width:480px)"/>
+        <link rel="stylesheet" media="all and (max-width: 480px)" href="mobile.css"/>
+        <link rel="stylesheet"  media="only screen and (min-width: 490px) and (max-width: 1024px)" href="tablet.css"/>
         <script src="https://kit.fontawesome.com/5583035ac2.js" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <section id="top">
+        <div id="top">
             <header id="logo">
                 <img src= "img/logo/Reservia@3x.png" alt=""/> 
             </header> 
@@ -24,14 +24,12 @@
             <div id="registerbutton">
                 <a href="#register" id= "registermenu">S'inscrire</a>
             </div>
-       </section>
+        </div>
        <section id="hook">
-            <p>
-                <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-            </p>
+            <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
            <p>En plein centre ville ou en pleine nature</p>
        </section>
-       <section id="searchbar">
+       <div id="searchbar">
             <div id="iconsmap"><i class="fas fa-map-marker-alt"></i></div>
             <form method="post" action="list.php">
                 <p>
@@ -47,11 +45,11 @@
                     </button>
                 </p>
             </form>
-       </section>
+        </div>
        <section>
             <div>
                 <ul id="filters">
-                    <h2>Filtres</h2>
+                    <li><h2>Filtres</h2></li>
                     <li id="economic">
                         <div class="icons"><i class="fas fa-money-bill-wave"></i></div>
                         <div class="text">Economique</div>
@@ -73,18 +71,16 @@
         </section>
         <section id="infobar">
             <div id="iconsinfo"><i class="fas fa-info"></i></div>
-            <p id="info">Plus de 500 logements sont disponibles dans cette ville</p>
+            <h5 id="info">Plus de 500 logements sont disponibles dans cette ville</h5>
         </section>
         <section id="group">
             <article>
                 <header>
-                    <p id="accommodation_list">
-                        <h2>Hébergements à Marseille</h2>
-                    </p>
+                    <h2 id="accommodation_list">Hébergements à Marseille</h2>
                 </header>
-                <section id="offers">
+                <div id="offers">
                     <a href="reservia-accommodationcard1.html">
-                        <section class="accommodationbloc" >
+                        <div class="accommodationbloc" >
                             <div>
                                 <img src="img/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" class="imglodging" alt=""> 
                             </div>
@@ -99,10 +95,10 @@
                                     <li><div ><i class="fas fa-star grey"></i></div></li>
                                 </ul>
                             </section>
-                        </section> 
+                        </div> 
                     </a>    
                     <a href="reservia-accommodationcard2.html">        
-                        <section class="accommodationbloc">
+                        <div class="accommodationbloc">
                             <div>
                                 <img src="img/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" class="imglodging" alt=""> 
                             </div>
@@ -117,10 +113,10 @@
                                     <li><div ><i class="fas fa-star"></i></div></li>
                                 </ul>
                             </section>              
-                        </section>
+                        </div>
                     </a>
                     <a href="reservia-accommodationcard3.html">
-                        <section class="accommodationbloc">
+                        <div class="accommodationbloc">
                             <div>
                                 <img src="img/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" class="imglodging" alt=""> 
                             </div>
@@ -135,10 +131,10 @@
                                     <li><div ><i class="fas fa-star grey"></i></div></li>
                                 </ul>
                             </section>           
-                        </section>
+                        </div>
                     </a>
                     <a href="reservia-accommodationcard4.html">
-                        <section class="accommodationbloc">
+                        <div class="accommodationbloc">
                             <div>
                                 <img src="img/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" class="imglodging" alt=""> 
                             </div>
@@ -153,10 +149,10 @@
                                     <li><div ><i class="fas fa-star grey"></i></div></li>
                                 </ul>
                             </section>              
-                        </section>
+                        </div>
                     </a>
                     <a href="reservia-accommodationcard5.html">
-                        <section class="accommodationbloc">
+                        <div class="accommodationbloc">
                             <div>
                                 <img src="img/hebergements/2_large/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" class="imglodging" alt=""> 
                             </div>
@@ -171,10 +167,10 @@
                                     <li><div ><i class="fas fa-star grey"></i></div></li>
                                 </ul>
                             </section>             
-                        </section>
+                        </div>
                     </a>
                     <a href="reservia-accommodationcard6.html">
-                        <section class="accommodationbloc">
+                        <div class="accommodationbloc">
                             <div>
                                 <img src="img/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" class="imglodging" alt=""> 
                             </div>
@@ -189,9 +185,9 @@
                                     <li><div ><i class="fas fa-star"></i></div></li>
                                 </ul>
                             </section> 
-                        </section>
+                        </div>
                     </a>
-               </section>
+                </div>
                <footer>
                     <h2>Afficher plus</h2>
                </footer>
@@ -201,9 +197,9 @@
                     <p>Les plus populaires</p>
                     <div><i class="fas fa-chart-line"></i></div>
                 </header>
-                <section id="favorites">
+                <div id="favorites">
                     <a href="reservia-popularcard1.html">
-                        <section class="popularbloc">
+                        <div class="popularbloc">
                             <div>
                                 <img src="img/hebergements/1_xlarge/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" class="imgpopular" alt=""> 
                             </div>
@@ -218,10 +214,10 @@
                                     <li><div ><i class="fas fa-star"></i></div></li>
                                 </ul>
                             </section>             
-                        </section>
+                        </div>
                     </a> 
                     <a href="reservia-popularcard2.html">
-                        <section class="popularbloc">
+                        <div class="popularbloc">
                             <div>
                                 <img src="img/hebergements/1_xlarge/aw-creative-VGs8z60yT2c-unsplash.jpg" class="imgpopular" alt=""> 
                             </div>
@@ -236,10 +232,10 @@
                                     <li><div ><i class="fas fa-star grey"></i></div></li>
                                 </ul>
                             </section>    
-                        </section>
+                        </div>
                     </a>
                     <a href="reservia-popularcard3.html">
-                        <section class="popularbloc">
+                        <div class="popularbloc">
                             <div>
                                 <img src="img/hebergements/1_xlarge/febrian-zakaria-sjvU0THccQA-unsplash.jpg" class="imgpopular" alt=""> 
                             </div>
@@ -254,16 +250,16 @@
                                     <li><div ><i class="fas fa-star grey"></i></div></li>
                                 </ul>
                             </section>               
-                        </section>
+                        </div>
                     </a> 
-                </section>
+                </div>
             </aside>
         </section>
         <section id="leisure">
             <header id="activity_liste">
                 <h2>Activités à Marseille</h2>
             </header>
-            <section id="activity">
+            <div id="activity">
                 <section class="blocactivitytype1">
                     <a href="reservia-activitycard1.html">
                         <div>
@@ -272,7 +268,7 @@
                         <h3>Vieux Port</h3>
                     </a>
                 </section>
-                <section class="blocactivitytype2">
+                <div class="blocactivitytype2">
                     <section class="blocactivitytype2_5">
                         <a href="reservia-activitycard2.html">
                             <div>
@@ -289,7 +285,7 @@
                             <h3>Îles du Frioul</h3>
                         </a>
                     </section>
-                </section>
+                </div>
                 <section class="blocactivitytype1">
                     <a href="reservia-activitycard4.html">
                         <div>
@@ -298,7 +294,7 @@
                         <h3>Parc National des Calanques</h3>
                     </a>
                 </section>
-                <section class="blocactivitytype2">
+                <div class="blocactivitytype2">
                     <section class="blocactivitytype2_5">
                         <a href="reservia-activitycard5.html">
                             <div>
@@ -315,8 +311,8 @@
                             <h3>Parc Longchamp</h3>
                         </a>
                     </section>
-                </section>
-            </section>
+                </div>
+            </div>
         </section>
         <footer id="endmenu">
             <section>
