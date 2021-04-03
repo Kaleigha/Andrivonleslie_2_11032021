@@ -37,7 +37,11 @@ p{
     color: black;
     font-size: 20px;
 }
-
+.center{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
 
 /*Icons and images settings*/
 
@@ -442,6 +446,8 @@ aside header p{
     background-size: cover;
     height: max-content;
     width:100%;
+}
+#endmenu .center{
     display:flex;
     flex-direction: row;  
     flex-wrap: nowrap;
@@ -451,6 +457,6 @@ aside header p{
     padding-left: 30px;
     margin-top: 20px;
 }
-#endmenu section{
+#endmenu .center section{
     width: 600px;
 }
