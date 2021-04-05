@@ -5,7 +5,7 @@
         align-self: center;
     }
     body{
-        width: 90%;
+        width: 100%;
     }
     #top{
         width: auto;   
@@ -23,10 +23,23 @@
     }
     aside{
         margin-top: 50px;
+        width: auto;
+        height: auto;
     }
     #offers{
         width: 100%;
         align-content: flex-start;
+    }
+    #favorites{
+        height: auto;
+        flex-flow: row wrap;
+        align-content: space-between;
+        justify-content: space-around;
+        width: fit-content;
+    }
+    .popularbloc{
+        width: 250px;
+        margin: 20px;
     }
     #leisure{
         width: auto;
@@ -34,11 +47,14 @@
     }
     #activity{
         width: auto;
-        height: 950px;
+        height: auto;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-around;
         align-items: flex-start;
     }
+    .blocactivitytype1{
+        margin-right: 150px;
+    }
     #endmenu{
-        width: 950px;
+        width: 100%;
     }

@@ -10,7 +10,6 @@ body{
 section{
     font-family: 'Raleway', sans-serif;
     margin-top: 50px;
-    margin-left: 20px;
 }
 li{
     list-style: none;
@@ -18,7 +17,7 @@ li{
 
 h2{
     font-weight: bold;
-    margin:0px;
+    margin-bottom: 10px;
     color: black;
     font-size: 25px;
 }
@@ -125,10 +124,14 @@ img{
 /*Icons and images settings*/
 
 /* Header and Nav */
+
+nav{
+    display: flex;
+    justify-content: center;
+}
 #top{
     display: flex;
     flex-flow: row wrap;
-    margin-left: 30px;
     margin-right: 10px;
     width: 1200px;
     justify-content: space-between;
@@ -156,17 +159,16 @@ a{
 #accommodationmenu{
     color:#0065FC;
 }
-#accommodationmenu:hover , #activitymenu:hover{
+#accommodationmenu:hover , #activitymenu:hover , #registerbutton:hover{
     border-top:  2px #0065FC solid;
-    padding-top: 18px;
+    padding-top: 20px;
 }
-#registermenu{
+#registerbutton{
     color:#0065FC;
     font-size: 20px;
     font-weight: bold; 
-    padding-bottom: 15px;
 }
-#registerbutton{
+#registermenu{
     display:flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -190,8 +192,7 @@ a{
 
 /* Section Hook*/
 #hook{
-    margin-left: 30px;
-    margin-right: 50px;
+    margin-bottom: 50px;
     font-size: 20px;
 }
 
@@ -201,8 +202,6 @@ a{
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: center;
-    margin-left: 30px;
-    margin-right: 50px;
 }
 form{
     display: flex;
@@ -250,9 +249,7 @@ input[type=search]{
     align-items: center;
     width: 800px;
     flex: 1 1 auto;
-    font-size: 20px;
-    padding-left: 10px;
-    
+    font-size: 20px; 
 }
 #economic , #family , #romantic , #pets{
     display: flex;
@@ -271,8 +268,7 @@ input[type=search]{
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items:stretch;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-bottom: 50px;
 }
 #info{
     padding-left: 18px;
@@ -284,9 +280,7 @@ input[type=search]{
 #group{
     display:flex;
     flex-flow: row wrap;
-    justify-content: space-between;  
-    margin-left: 30px;
-    margin-right: 30px;  
+    justify-content: space-between;   
 }
 
 /* Les hébergements */
@@ -317,11 +311,11 @@ article{
     box-shadow: 10px 10px 10px grey;   
 }
 .description{
-   margin: 0px;
    padding-left: 10px;
    display:flex;
    flex-flow:column wrap; 
    height: 100px;
+   margin: 0px;
 }
 #offers{
     display:flex;
@@ -330,9 +324,7 @@ article{
     height: 90%;
     width: 750px;
     align-content: center;
-    justify-content:space-between;
-    margin-left: 0px;
-    margin-top: 0px;   
+    justify-content:space-between;  
 }
 .description p{
     margin:0px;
@@ -356,7 +348,6 @@ aside{
     height:645px;
     border-radius: 30px / 30px;
     padding:30px;
-    margin-left: 10px;
 }
 aside header{
     display:flex;
@@ -401,8 +392,6 @@ aside header p{
 /* Section Les activités */
 #leisure{
     margin-top: 80px;
-    margin-left: 30px;
-    margin-right: 30px;
     width: 1100px;
     height: 500px;
 }
@@ -411,8 +400,7 @@ aside header p{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between; 
-    margin-top: 20px;
-    width: 1100px;
+    width: 1200px;
     height: 500px;  
 }
 .blocactivitytype1{
@@ -451,12 +439,13 @@ aside header p{
     display:flex;
     flex-direction: row;  
     flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: space-around;
+    align-content: space-around;
     font-size: 20px;
-    padding-left: 30px;
-    margin-top: 20px;
 }
 #endmenu .center section{
-    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
 }

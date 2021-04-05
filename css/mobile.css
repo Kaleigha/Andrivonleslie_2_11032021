@@ -5,8 +5,7 @@
         align-self: center;
     }
     body{
-        width: 1100px;
-        margin: 0px;
+        width: auto;
     }
 
     /*Header*/
@@ -23,10 +22,10 @@
         height: 150px;
         
     }
-    #registermenu{
+    #registerbutton{
         font-size: 60px;
     }
-    #registerbutton{
+    #registermenu{
         order: 2;
         font-weight: bold;
         margin-right: 20px;
