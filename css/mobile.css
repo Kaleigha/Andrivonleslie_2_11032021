@@ -7,14 +7,16 @@
     body{
         width: auto;
     }
+    .center{
+       margin: auto;
+    }
     /*Header*/
     #top{
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
-        width: 90%;
+        width: 100%;
         height: auto;
-        margin-left: 0px;
     }
     img{
         width: 250px;
@@ -35,7 +37,7 @@
         border-bottom:  5px #0065FC solid;
         padding-bottom: 50px;
         padding-left: 20px;
-        width: 560px;
+        width: 630px;
     }
     #activitymenu{
         display: flex;
@@ -44,7 +46,7 @@
         padding-bottom: 50px;
         padding-left: 20px;
         padding-right: 20px;
-        width: 560px;
+        width: 650px;
     }
     #accommodationmenu:hover , #activitymenu:hover{
         border-top: none;
@@ -70,6 +72,7 @@
     }
     nav{
         order: 3;
+        width: 100%;
     }
     h2{
         font-size: 60px;
@@ -134,7 +137,7 @@
         font-size: xx-large;
     }
     #research::placeholder{
-        font-size: 40px;
+        font-size: 50px;
     }
 
     /*Filters*/
@@ -146,7 +149,7 @@
         width: 100%;
     }
     #filters h2{
-        width: 800px;
+        width: 1000px;
         margin-bottom: 50px;
     }
     #economic , #family , #romantic , #pets{
@@ -211,12 +214,11 @@
     /* Les hébergements */
     article{
         flex-flow: column nowrap;
-        height: 4300px;
-        width: 1000px;
+        height: 5300px;
+        width: 100%;
         background-color: white;
         order: 2;
         padding: 0px;
-        padding-left: 10px;
         margin-top: 100px;
     }
     #offers{
@@ -224,17 +226,17 @@
         justify-content: space-around;
         align-content: space-around;
         align-items: center;
-        width: 1200px;
-        height: 3800px;
+        width: 100%;
+        height: 4800px;
     }
     .accommodationbloc{
-        width: 1000px;
+        width: 1300px;
         box-shadow: 10px 10px 5px #F2F2F2;
-        height: 500px;
+        height: 730px;
     }
     .imglodging{
-        width: 1000px;
-        height: 290px; 
+        width: 100%;
+        height: 490px; 
     }
     #accommodation_header{
         margin-top: 50px;
@@ -244,33 +246,33 @@
     /*Les populaires*/
     aside{
         order: 1;
-        width: 1200px;
-        height: 1350px;
+        width: 100%;
+        height: 2050px;
         justify-content: flex-start;
         background-size: cover;
         border-radius: 0px;
         padding: 0px;
     }
     #favorites{
-        height: 1200px;
+        height: 1800px;
         justify-content: space-around;
         align-items: center;
         margin-top: 100px;
     }
     .popularbloc{
-        width: 1000px;
-        height: 300px;
+        width: 1200px;
+        height: 500px;
         justify-content: start;
     }
     .imgpopular{
-        width: 400px;
-        height: 280px;
+        width: 550px;
+        height: 480px;
     }
     .description h2{
-        font-size: 40px;
+        font-size: 50px;
     }
     .description p{
-        font-size: 40px;
+        font-size: 50px;
     }
     .description{
         justify-content: space-around;
@@ -291,36 +293,36 @@
 
     /*Activity*/
     #leisure{
-        height: 3650px;
+        height: 4950px;
         margin-top: 30px;
-        margin-left: 0px;
         display: flex;
         flex-flow: column nowrap;
         justify-content: flex-start;
         align-items: flex-start;
-        padding-left: 10px; 
+        width: 100%;
     }
     #activity{
-        width: 1200px;
+        width: 100%;
         flex-flow: column nowrap;
         justify-content: space-around;
         align-items: center;
+        align-content: space-around;
         height: auto; 
-        margin-left: 0px; 
     }
     .blocactivitytype1 , .blocactivitytype2_5{
-        width: 1000px;
-        height:500px;
+        width: 95%;
+        height:730px;
     }
     .blocactivitytype2{
-        width: 1000px;
-        height:1100px;
+        width: 100%;
+        height:1500px;
         flex-flow: column nowrap;
         margin-bottom: 50px;
+        align-items: center;
     }
     .imgactivity1 , .imgactivity2{
-        width: 1000px;
-        height: 400px;
+        width: 100%;
+        height: 580px;
     }
     #activity_header{
         margin-bottom: 100px;
@@ -330,7 +332,7 @@
         display: flex;
         flex-flow: column wrap;
         justify-content: center; 
-        align-items: flex-start;   
+        align-items: flex-start;  
     }
     #endmenu .center{
         flex-direction: column;
