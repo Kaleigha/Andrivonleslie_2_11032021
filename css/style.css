@@ -1,11 +1,16 @@
 html{
-        display:flex;
-        justify-content: center;
-        align-self: center;
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
     }
 body{
         width: 1200px;
         font-family: 'Raleway', sans-serif;
+        display:flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-content: center;
     }
 section{
     font-family: 'Raleway', sans-serif;
@@ -159,7 +164,7 @@ a{
 #accommodationmenu{
     color:#0065FC;
 }
-#accommodationmenu:hover , #activitymenu:hover , #registerbutton:hover{
+#accommodationmenu:hover , #activitymenu:hover {
     border-top:  2px #0065FC solid;
     padding-top: 20px;
 }

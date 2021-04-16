@@ -1,14 +1,14 @@
 
     html{
-        display:flex;
-        justify-content: flex-start;
-        align-self: center;
+        display:block;
+        width: 100%;
     }
     body{
         width: auto;
     }
     .center{
        margin: auto;
+       width: auto;
     }
     /*Header*/
     #top{
@@ -332,12 +332,14 @@
         display: flex;
         flex-flow: column wrap;
         justify-content: center; 
-        align-items: flex-start;  
+        align-items: flex-start;
+        width: 1300px;  
     }
     #endmenu .center{
         flex-direction: column;
         flex-wrap: nowrap;
         margin-left: 140px;
+        width: auto;
     }
     #endmenu .center section{
         height: 400px;

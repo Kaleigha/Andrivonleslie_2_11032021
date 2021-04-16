@@ -10,6 +10,11 @@
     #top{
         width: auto;   
     }
+    menu{
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: space-around;
+    }
     #filters{
         width: auto;
     }
@@ -43,7 +48,7 @@
     }
     #leisure{
         width: auto;
-        height: 950px; 
+        height: auto; 
     }
     #activity{
         width: auto;

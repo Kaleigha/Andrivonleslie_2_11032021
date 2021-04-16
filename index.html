@@ -3,27 +3,27 @@
     <head>
         <title>Reservia</title>
         <meta charset= UTF-8 />
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1" >
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/mobile.css" media="all and (max-width: 480px)">
+        <link rel="stylesheet" href="css/mobile.css" media="only screen and (min-width:320px) and (max-width: 490px)">
         <link rel="stylesheet" href="css/tablet.css" media="only screen and (min-width: 490px) and (max-width: 1024px)">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" >
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap">
     </head>
     <body>
         <div class="center">
             <div id="top">
                 <header id="logo">
-                    <img src= "img/logo/Reservia@3x.png" alt=""/> 
+                    <img src="img/logo/Reservia@3x.png" alt=""/> 
                 </header> 
                 <nav>
                     <menu>
-                        <li > <a href= "#accommodation_header" id= "accommodationmenu">Hébergements</a></li>
-                        <li> <a href= "#activity_header" id= "activitymenu">Activités</a></li>
+                        <li><a href="#accommodation_header" id="accommodationmenu">Hébergements</a></li>
+                        <li><a href="#activity_header" id="activitymenu">Activités</a></li>
                     </menu>
                 </nav>
                 <div id="registermenu">
-                    <a href="#register" id= "registerbutton">S'inscrire</a>
+                    <a href="#register" id="registerbutton">S'inscrire</a>
                 </div>
             </div>
             <section id="hook">
@@ -35,7 +35,7 @@
                 <form method="post" action="#">
                     <p>
                         <input type="search" name="research" id="research" placeholder="Marseille, France"/>
-                        <label for="research" ></label>
+                        <label for="research"></label>
                     </p>
                     <p>
                         <button type="submit" name="searching" id="searching">Rechercher</button>
@@ -79,7 +79,7 @@
                     </header>
                     <div id="offers">
                         <a href="#">
-                            <div class="accommodationbloc" >
+                            <div class="accommodationbloc">
                                 <div>
                                     <img src="img/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" class="imglodging" alt=""> 
                                 </div>
@@ -336,6 +336,5 @@
         </footer>
         <script src="https://kit.fontawesome.com/5583035ac2.js" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com">
-    </body>
-    
+    </body> 
 </html>
