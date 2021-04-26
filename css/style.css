@@ -96,19 +96,18 @@ img{
     object-fit: cover;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    width: 210px;
-    height: 110px;
+    width: 100%;
+    height: 90%;
 }
 .fa-chart-line{
     color: black;
     font-size: x-large;
 }
 .imgpopular{
-    width: 100px;
-    height: 140px;
+    width: 100%;
+    height: 95%;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
-    margin-left: 5px; 
     object-fit: cover; 
 }
 .imgactivity1{
@@ -285,7 +284,9 @@ input[type=search]{
 #group{
     display:flex;
     flex-flow: row wrap;
-    justify-content: space-between;   
+    justify-content: space-between; 
+    width: 100%; 
+    height: 70%; 
 }
 
 /* Les hébergements */
@@ -293,10 +294,16 @@ article{
     display:flex;
     flex-flow:column nowrap;
     background-color: #F2F2F2;
-    width: 750px;
+    width: 65%;
     border-radius: 30px / 30px;
     padding:25px;
-    height: 650px;
+    height: 100%;
+}
+article header{
+    height: 10%;
+}
+#accommodation_header{
+    height: 100%;
 }
 .rating{
     display:flex;
@@ -307,29 +314,33 @@ article{
 .accommodationbloc{
     background-color: white;
     border-radius: 30px / 30px;
-    height:190px;
-    width: 210px;
+    height:225px;
+    width: 29%;
     display:flex;
     flex-flow: column nowrap;
     padding:5px;
     margin: 10px;  
     box-shadow: 10px 10px 10px grey;   
 }
+.accommodationbloc div{
+    height: 65%;
+}
 .description{
    padding-left: 10px;
    display:flex;
    flex-flow:column wrap; 
-   height: 100px;
+   height: 30%;
    margin: 0px;
 }
 #offers{
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
-    height: 90%;
-    width: 750px;
+    height: 80%;
+    width: 100%;
     align-content: center;
-    justify-content:space-between;  
+    justify-content:space-between; 
+    align-items: center; 
 }
 .description p{
     margin:0px;
@@ -339,9 +350,11 @@ article{
 .description h2{
     font-size: 17px;
     padding-bottom:5px; 
+    margin-bottom: 0px;
 }
 footer{
     margin-top: 50px;
+    height: 10%;
 }
 
 /* Les populaires */
@@ -349,8 +362,8 @@ aside{
     display:flex;
     flex-flow:column nowrap;
     background-color: #F2F2F2;
-    width: 260px;
-    height:645px;
+    width: 25%;
+    height: 100%;
     border-radius: 30px / 30px;
     padding:30px;
 }
@@ -374,16 +387,26 @@ aside header p{
     border-radius: 30px / 30px;
     display: flex;
     flex-flow: row nowrap;
-    width: 265px;
-    height: 150px;
-    margin: 0px;
-    justify-content: center;
+    width: 100%;
+    height: 30%;
+    margin-bottom: 20px;
+    justify-content: flex-start;
     align-items: center;
     box-shadow: 10px 10px 10px grey;
+}
+.popularbloc div{
+    width: 35%;
+    margin-left: 5px;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
 }
 .popularbloc .description{
     display:flex;
     flex-flow:column nowrap;
+    width: 70%;
+    margin-right: 5px;
 }
 #favorites{
     display:flex;
@@ -392,6 +415,7 @@ aside header p{
     align-items: center;
     margin:0px;
     height: 550px;
+    width: 100%;
 }
 
 /* Section Les activités */

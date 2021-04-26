@@ -2,10 +2,20 @@
     html{
         display:flex;
         justify-content: center;
-        align-self: center;
+        align-items: center;
+        width: auto;
+        overflow-x: hidden;
     }
     body{
         width: 100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        overflow-x: hidden;
+    }
+    .center{
+        width: 90%;
+        overflow-x: hidden;
     }
     #top{
         width: auto;   
@@ -23,12 +33,12 @@
         align-items: center;
     }
     article{
-        width: 100%;
+        width: 90%;
         height: auto;
     }
     aside{
         margin-top: 50px;
-        width: auto;
+        width: 90%;
         height: auto;
     }
     #offers{
@@ -40,14 +50,17 @@
         flex-flow: row wrap;
         align-content: space-between;
         justify-content: space-around;
-        width: fit-content;
+        width: 100%;
     }
     .popularbloc{
-        width: 250px;
-        margin: 20px;
+        margin-left: 150px;
+        margin-right: 150px;
+        flex: 1 1 auto;
+        height: 200px;
     }
+    
     #leisure{
-        width: auto;
+        width: 100%;
         height: auto; 
     }
     #activity{

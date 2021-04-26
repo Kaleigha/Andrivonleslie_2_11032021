@@ -1,14 +1,9 @@
 
-    html{
-        display:block;
+    body{
         width: 100%;
     }
-    body{
-        width: auto;
-    }
     .center{
-       margin: auto;
-       width: auto;
+       width: 100%;
     }
     /*Header*/
     #top{
