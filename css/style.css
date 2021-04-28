@@ -113,15 +113,15 @@ img{
 .imgactivity1{
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    width: 250px;
-    height: 300px;
+    width: 100%;
+    height: 400px;
     object-fit: cover;
 }
 .imgactivity2{
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    width: 225px;
-    height: 100px; 
+    width: 100%;
+    height: 150px; 
     object-fit: cover;
 }
 
@@ -132,6 +132,7 @@ img{
 nav{
     display: flex;
     justify-content: center;
+    height: 100%;
 }
 #top{
     display: flex;
@@ -139,6 +140,7 @@ nav{
     margin-right: 10px;
     width: 1200px;
     justify-content: space-between;
+    height: 80px;
 }
 menu{
     display: flex;
@@ -149,7 +151,8 @@ menu{
     align-items: center;
     font-size: 20px;
     width: 300px;
-    font-weight: bold; 
+    font-weight: bold;
+    height: 100%; 
 }
 #logo{
     display: flex;
@@ -162,10 +165,31 @@ a{
 }
 #accommodationmenu{
     color:#0065FC;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
 }
-#accommodationmenu:hover , #activitymenu:hover {
-    border-top:  2px #0065FC solid;
-    padding-top: 20px;
+#accommodation_border:hover , #activity_border:hover {
+    border-top:  5px #0065FC solid;
+}
+#accommodation_border{
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+#activity_border{
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
 }
 #registerbutton{
     color:#0065FC;
@@ -430,29 +454,32 @@ aside header p{
     flex-wrap: nowrap;
     justify-content: space-between; 
     width: 1200px;
-    height: 500px;  
+    height: 500px;
+    margin-top: 50px;  
 }
 .blocactivitytype1{
     box-shadow: 10px 10px 5px #F2F2F2;
     border-radius: 30px / 30px;
-    height: 355px;
-    width: 250px;
+    height: 90%;
+    width: 23%;
+    margin-top: 0px;
 }
 .blocactivitytype2_5{
     box-shadow: 10px 10px 5px #F2F2F2;
     border-radius: 30px / 30px;
-    height: 155px;
-    width: 225px;
+    height: 45%;
+    width: 100%;
     display:flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    margin-top: 0px;
 }
 .blocactivitytype2{
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 410px;
-    width: 250px;
+    height: 90%;
+    width: 23%;
     margin:0px;
     justify-content: space-between;
 }
